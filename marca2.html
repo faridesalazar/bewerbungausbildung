@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html :lang(es)>
+
+<head>
+<meta charset="utf-8">
+<title>FARIDE SALAZAR</title>
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Coming+Soon&family=Fredoka+One&family=Gluten:wght@100;400&family=Inter:wght@300&family=Londrina+Solid:wght@300&family=Pangolin&family=Rampart+One&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+</head>
+
+
+<body>
+    <header class="contenedor topnav" style="min-height: auto;">
+            <div class="meniu">
+                <div class="menu">   
+                <p>Portfolio</p>                  
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                </div>
+                <nav>
+                    <ul class="lista">
+                    <li><a href="index.html#übermich" data-after="übermich">über mich</a></li>
+                    <li><a href="index.html#blog" data-after="Portfolio">Portfolio</a></li>
+                    <li><a href="index.html#que-esperas" data-after="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="marca2">
+                <h2>FEMREV</h2>
+                <a href="index.html" class="volver">zurück</a>
+            </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html#übermich">News</a>
+                <a href="index.html#blog">Contact</a>
+                <a href="index.html#about">About</a>
+              </div>
+    </header>
+    
+
+ <!--über mich sektion-->
+    <section class="contenedor photos">
+        <img src="img/femrev1.jpg" alt="" class="img50 img100t">
+        <img src="img/femrev2.jpg" alt="" class="img50 img50t img100c">
+        <img src="img/femrev4.jpg" alt="" width="360" height="500" >
+        <img src="img/femrev3.jpg" alt="" width="370" height="500" >
+        <img src="img/femrev7.jpg" alt="" width="360" height="500" >
+        <img src="img/femrev5.jpg" alt="" class="img50 img100t">
+        <img src="img/femrev6.jpg" alt="" class="img50 img50t img100c">
+    </section>
+
+    <section id="wpp">
+    <a href="https://wa.me/4915736702195">
+        <img src="img/whats.png" width="50" height="50" alt="">
+    </a>
+    </section>
+
+
+
+
+$(".menu-icon").click(function(){
+
+$("header nav").slideToggle();
+})
+</script>
+<script src="js/header.js"></script>
+
+</body>
+
+
+</html>

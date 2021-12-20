@@ -1,0 +1,566 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Coming Soon";
+    background-color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+p  { 
+ font-size: 20px;
+}
+
+.topnav{
+    min-height: 550px;
+}
+
+li { 
+    list-style: none;
+    margin: 9px 25px 0 0    ;
+   
+}
+.topnav .meniu .menu a{
+    display: none;
+}
+.topnav .meniu {
+    display: flex;
+}
+.topnav .meniu nav{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+    justify-content: end;
+}
+#myLinks{
+    display: none;
+}
+
+
+#primero {
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.lista {
+    display: flex;
+}
+
+
+.titular{
+    text-align: center;
+    padding: 100px;
+    background-position: center;
+}
+
+/* AJUSTES DE PAGINAS DE PORFOLIO */
+
+/* MARCA 1 */
+.marca1{
+    text-align: center;
+    padding: 50px;
+    background-position: center;
+    position: relative;
+    background-color: black;
+}
+.hmarca1{
+    background-image: url(img/wallw.png);
+}
+
+/* MARCA 2 */
+.marca2{
+    text-align: center;
+    padding: 50px;
+    background-position: center;
+    position: relative;
+    BACKGROUND-COLOR: BLACK;
+}
+.hmarca2{
+    background-color: rgb(182, 13, 13);
+}
+
+/* MARCA 3 */
+.marca3{
+    text-align: center;
+    padding: 50px;
+    background-position: center;
+    position: relative;
+    BACKGROUND-COLOR: BLACK;
+}
+.hmarca3{
+    background-image: url(img/foto01.jpg);
+}
+
+.marca1 h2,.marca2 h2,.marca3 h2{
+    margin: 0;
+    color: white;
+    
+}
+.marca1 a,.marca2 a,.marca3 a{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+.publicacion1 h2, .publicacion2 h2, .publicacion3 h2 {
+    color: rgb(107, 100, 100);
+}
+
+/* FIN AJUSTES DE PAGINAS DE PORFOLIO */
+
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+h3{
+    margin: 0;
+}
+
+
+.titular a {
+    display: inline-block;
+    font-size: 14px;
+    background: #000000;
+    padding: 15px 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing:1px;
+}
+/* efecto botones 
+*/
+
+
+a:hover
+{
+letter-spacing:2px;
+background: rgb(0, 0, 0);
+color:rgb(255, 255, 255);
+}
+
+header {
+    background-image: url("img/wallw.png");
+    background-size: cover;news
+}
+
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+/* ARRANCA SECCION ABOUT ME */
+
+h3 {
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+#übermich{
+    padding-top: 50px;
+}
+
+.contenedor-übermich {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("img/fondonegro.jpg");
+    opacity:.8;
+    background-size: cover;
+}
+
+.contenedor-parrafo-y-boton{
+    width: 42%;
+    padding-bottom: 30px;
+}
+
+.contenedor-parrafo-y-boton p{
+    font-size: 18px;
+}
+.contenedor-parrafo-y-boton a{
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
+    transition: 0.3s;
+}
+
+.parrafo-final {
+    margin-bottom: 30px;
+}
+
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 24%;
+    padding: 38px 35px 38px 35px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: white;
+    background: black;
+}
+
+.violeta{
+    background: rgb(0, 0, 0);
+}
+
+.celeste{
+    background: #000000
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio img {
+    float: right;
+}
+
+.servicio p{
+    font-size: 13px;
+    height: 200px;
+}
+
+span{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+}
+
+.owl-nav {
+    text-align: center;
+}
+
+.contenedor-porque {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-porque h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor-porque p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.porque-singular {
+    width: 27%;
+}
+
+#blog { 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-publicaciones div a {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.publicacion1 {
+    padding-bottom: 20px;
+}
+
+.publicacion2 {
+    padding-bottom: 20px;
+}
+.publicacion3 {
+    padding-bottom: 20px;
+}
+
+#blog img {
+    width: 100%;
+}
+
+
+#blog p {
+    color: #e6e6e6;
+    line-height: 16px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 0;
+    padding:20px 30px 20px 30px;
+}
+
+#blog a{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#que-esperas{
+    background: black;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#que-esperas h3 {
+    font-size: 55px;
+    color: #fff;
+    background: black;
+    margin-bottom: 40px;
+}
+
+#que-esperas a{
+    color: black;
+    background: white;
+    padding: 15px 34px 15px 45px;
+    transition: 1s;
+}
+
+#que-esperas a:hover {
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+#wpp a{
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
+
+.menu-icon { 
+    display: none;
+}
+
+.publicacion1 h2,.publicacion2 h2,.publicacion3 h2{
+    margin: 10px 0 0 30px;
+}
+
+.volver{
+    color: rgb(255, 255, 255) !important;
+}
+
+.fotos{
+    display: flex;
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos img{
+    max-width: 100%;
+    padding: 5px;
+}
+.photos .img50{
+    max-width: 50%;
+}
+
+@media (max-width: 800px) {
+/* se a aplicar cuando el MAXIMO DE ANCHO sea de 480px */
+
+nav{
+    position: absolute;
+    top: 70px;
+    top: 50px;
+    left: 0px;
+    background: #ffffff;
+    width: 100%;
+    display: none;
+}
+
+nav .lista {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .menu-icon {
+      display: block;
+      width: 30px;
+  }
+
+  .titular{
+      margin-top: 90px;
+  }
+
+  h1 {
+      font-size: 40px;
+  }
+
+  h2 {
+      font-size: 22px;
+  }
+
+  .contenedor-aboutme {
+      flex-direction: column;
+  }
+
+  .contenedor-parrafo-y-boton {
+    width: 85%;
+}
+
+.contenedor-servicios {
+    flex-direction: column;
+}
+
+.servicio {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+h3 {
+    font-size: 46px;
+}
+
+.contenedor-porque {
+    flex-direction: column;
+}
+
+.porque-singular {
+    width: 95%;
+}
+
+.contenedor-publicaciones{
+    flex-direction: column;
+}
+
+
+.publicacion {
+    width: 100%;
+    margin: auto;
+}
+
+.imagen-aboutme {
+    width: 85%;
+}
+/* INICIO MENU HAMBURGUESA */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 71px;    
+    text-align: end;
+    background: black;
+    width: 150px;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 27px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: rgb(2, 2, 2);
+    color: black;
+    font-weight: bold;
+    opacity: 0.5;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #000000;
+    color: white;
+  }
+
+  .topnav .meniu .menu a {
+    display: block;
+}
+  .topnav .meniu nav {
+    display: none;
+}
+  .topnav .meniu {
+    display: block;
+}
+
+
+/* FIN MENU HAMBURGUESA */
+
+.photos .img100t{
+    max-width: 100%;
+}
+.photos .img50t{
+    max-width: 50%;
+}
+
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+
+    .imagen-aboutme {
+        width: 52%;
+    }
+
+    .servicio {
+        width: 60%;
+    }
+
+    .publicacion {
+        width: 70%;
+    }
+}
+
+@media (max-width:700px){
+    .photos .img100c{
+        max-width: 100%;
+    }
+    .photos .img50c{
+        max-width: 50%;
+    }
+    
+}

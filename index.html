@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html :lang(es)>
+
+<head>
+<meta charset="utf-8">
+<title>FARIDE SALAZAR</title>
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Coming+Soon&family=Fredoka+One&family=Gluten:wght@100;400&family=Inter:wght@300&family=Londrina+Solid:wght@300&family=Pangolin&family=Rampart+One&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+</head>
+
+
+<body>
+    <header class="contenedor topnav hmarca1">
+            <div class="meniu">
+                <div class="menu">   
+                <p>Portfolio</p>                  
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                </div>
+                <nav>
+                    <ul class="lista">
+                    <li><a href="#übermich" data-after="übermich">über mich</a></li>
+                    <li><a href="#blog" data-after="portfolio">Portfolio</a></li>
+                    <li><a href="#que-esperas" data-after="kontakt">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="titular">
+                <h1>FARIDE SALAZAR</h1>
+                <h2>Bewerbung als Mediengestalterin</h2>
+                <a href="#blog">mehr anzeigen</a>
+            </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#übermich">über mich</a>
+                <a href="#blog">portfolio</a>
+                <a href="#que-esperas">kontakt</a>
+              </div>
+    </header>
+    
+
+ <!--über mich sektion-->
+    <section id="übermich">
+        <div class="contenedor">
+            <h3>über mich</h3>
+            <div class= "contenedor-übermich">
+                <img class="imagen-über mich" src="img/fotocv2.jpg" width="250" height="350"  alt="FARIDE SALAZAR" title="FARIDE SALAZAR">
+                <div class= "contenedor-parrafo-y-boton">
+                    <p>Faride Salazar ist eine peruanische Kreativunternehmerin mit Sitz in Berlin. </p>
+                    <p>Ihre Leidenschaft für Kunst, Fotografie, Technologie, Fremdsprache, Selbstlernen und Neugier führte sie dazu, in verschiedenen Bereichen zu arbeiten, unterschiedliche Erfahrungen zu sammeln und unterschiedliche Perspektiven zu verstehen. So entdeckt er seine Berufung zur User Experience durch Webdesign und Code.</p>
+                    <p class= "parrafo-final">Motiviert, Webdesign weiter zu lernen, sucht Faride nach einer Ausbildung, in der sie ihre ganze Kreativität ausschöpfen kann und von den Besten lernt.</p>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- ende süber mich sektion-->
+
+<!-- quité todo lo de notas y esta dentro de esto -->
+
+    <section id="blog">
+        <div class="contenedor">
+            <h3>portfolio</h3>
+            <div class="contenedor-publicaciones">
+                <div class="publicacion1">
+                    <h2>Airbnb x Faride</h2>
+                    <p>Personalisierte touristische Dienstleistungen in Lima und Buenos Aires.</p>
+                    <a href="marca1.html"> Ansehen</a>
+                </div>
+                
+                <div class="publicacion2">
+                    <h2>FEMREV</h2>
+                    <p>Fotoservice und Community Management für eine innovative Bekleidungsmarke.</p>
+                    <a href="marca2.html"> Ansehen</a>
+                </div>
+                
+                <div class="publicacion3">
+                    <h2>Personal Work</h2>                    
+                    <p>Digitale und analoge Portraits in Lima, Buenos Aires, Düsseldorf und Berlin.</p>
+                    <a href="marca3.html"> Ansehen</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="que-esperas">
+        <div class="contenedor">
+            <h3> kontakt </h3>
+            <a href="mailto:salazarperezfaride@gmail.com">salazarperezfaride@gmail.com</a>
+        </div>
+    </section>
+
+    <section id="wpp">
+    <a href="https://wa.me/4915736702195">
+        <img src="img/whats.png" width="50" height="50" alt="">
+    </a>
+    </section>
+
+
+$(".menu-icon").click(function(){
+
+$("header nav").slideToggle();
+})
+</script>
+<script src="js/header.js"></script>
+
+</body>
+
+
+</html>
